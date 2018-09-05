@@ -2,8 +2,9 @@
 # and run `docker build -t simple_ubuntu .`
 # simple_ubuntu will be the name of the image
 
-# To create the container based on simple_ubuntu image
-# with the interactive shell run `docker run -it simple_image`
+# To create the container based on simple_ubuntu image and
+# access it through the interactive shell,
+# run `docker run -it simple_image`
 
 # set base image
 FROM ubuntu:18.04
